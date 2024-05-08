@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+  /* theam heading h3*/
+  .theam_h3{
+    font-size: 20px;
+    color: #1F1F1F;
+    font-weight: 500;
+    font-family: 'Montserrat';
+  }
+  .theam_span{
+    font-weight: bold;
+    color: #098B00;
+    font-family: 'Montserrat';
+  }
+
+  .them_head{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 42px;
+    color: #1F1F1F;
+  }
+  .baner_paragraph{
+    color: #7C7C7C;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+  }
+
+
+body{
+    font-family: "Montserrat";
+    width: 100%;
+   
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+  /* navbar css */
+.navbar{
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 80px;
+    background-color: white;
+}
+.navbar_items{
+    font-family: Montserrat;
+
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-items_font{
+    font-family: "Montserrat", sans-serif;}
+
+.navbar_logo{
+   margin-top: 20px;
+}
+
+.navbar_logo img{
+    height: 50px;
+    width: 116px;
+}
+.hover_button{
+  
+    text-align: center;
+    border: 0;
+    color: white;
+    background-color: #098B00;
+    width: 145px;
+    height: 40px;
+}
+
+.Nav_btn{
+    display: none;
+}
+
+
+.nav_list{
+    display: none;
+}
+
+/* .navbar_list{
+    display: none;
+} */
+.nav_list_font{
+   
+    display: none;
+   
+}
+
+/* baner section css */
+
+.baner_section{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Group\ 29\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.baner_information{
+    gap: 20px;
+    height: 400px;
+    top: 50px;
+    width: 50%;
+    text-align: start;
+    position: relative;
+}
+
+.baner_image{
+
+}
+
+.baner_image img{
+   height: 600px;
+   width: 500px;
+}
+
+
+/* about section */
+
+.about_section{
+    width: 100%;
+    height: 660px;
+    background-color: #ECF4F5;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.about_image {
+    position: relative;
+    height: 550px;
+    width: 410px;    
+}
+.about_image img{
+    margin-top: 54px;
+    position: absolute;
+    margin-bottom: 0;
+    height: 550px;
+    width: 410px;
+    
+}
+
+.about_text{
+    position: relative;
+    top: 110px;
+    left: 30px;
+    height: 363px;
+    width: 650px;
+    text-align: start;
+}
+
+.display_block{
+    position: absolute;
+    display: none;
+    
+}
+
+/* vision section css */
+
+.vision_section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision_object{
+    gap: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;   
+}
+.vision_text{
+    display: block;
+    justify-content: left;
+    align-items: safe;
+    text-align: start;
+    width: 565px;
+}
+
+.vision_image{
+    width:600px;
+    height: 400px;
+}
+
+.vision_image image{
+    width:600px;
+    height: 400px;
+}
+
+
+/* mission section css */
+
+.mission_section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission_object{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.mission_text{
+    display: block;
+    justify-content: left;
+    align-items: safe;
+    text-align: start;
+    width: 565px;
+}
+
+.mission_image{
+    width:600px;
+    height: 400px;
+}
+
+.mission_image image{
+    width:600px;
+    height: 400px;
+}
